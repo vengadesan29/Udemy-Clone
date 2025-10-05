@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__one__title {
+    color: #A435F0;
+}
+
+.navbar__one {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__two {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 45%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__two input {
+    border: none;
+    font size: 16px;
+    width: 100%;
+}
+
+.navbar__two input:focus {
+    outline: none;
+}
+
+.navbar__three {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sale-img img {
+    width: 100%;
+}
+
+.recomended {
+    padding: 10px;
+}
+
+.course-card {
+    width: 300px;
+}
+
+.course-card img {
+    height: 50%;
+    width: 100%;
+}
+
+.recomended__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.topics__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.topics__container p {
+    border: solid grey 1px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.topics,
+.trending,
+.recomended {
+    margin-top: 20px;
+}
+
+.trending__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__one p {
+    margin: 20px;
+}
+
+.footer__two {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
